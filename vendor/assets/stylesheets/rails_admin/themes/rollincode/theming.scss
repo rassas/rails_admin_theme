@@ -115,7 +115,7 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
   &:focus,
   &:hover,
   &:target {
-    background: $secondary;
+    background: $gradient;
     border-color: darken($secondary, 10%);
     color: $primary;
   }
@@ -127,7 +127,7 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 }
 
 .btn-primary {
-  background: $secondary;
+  background: $gradient;
   border-color: $secondary;
 
   &:active,
@@ -170,7 +170,7 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 }
 
 .navbar-default {
-  background: $secondary;
+  background: $gradient;
   border: 0;
 }
 
@@ -185,11 +185,11 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 }
 
 .dropdown-header:hover {
-  background: $secondary;
+  background: $gradient;
 }
 
 .dropdown-header.active {
-  background: $secondary;
+  background: $gradient;
 }
 
 .navbar-default .navbar-nav > li > a,
@@ -222,7 +222,7 @@ a.navbar-brand {
   margin-top: 0;
 
   h1 {
-    background: $secondary;
+    background: $gradient;
     padding: 10px 15px;
     color: #fff;
     border-radius: 2px;
@@ -247,7 +247,7 @@ a.navbar-brand {
 
 .nav-pills > li > a:focus,
 .nav-pills > li > a:hover {
-  color: $secondary !important;
+  color: $gradient !important;
 }
 
 .root_links {
@@ -329,7 +329,7 @@ h1 {
   color: $secondary;
 
   &:hover {
-    background: $secondary;
+    background: $gradient;
     color: $primary;
   }
 }
